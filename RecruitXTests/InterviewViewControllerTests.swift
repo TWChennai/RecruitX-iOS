@@ -9,7 +9,7 @@
 import XCTest
 @testable import RecruitX
 
-class RecruitXTests: XCTestCase {
+class InterviewViewControllerTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

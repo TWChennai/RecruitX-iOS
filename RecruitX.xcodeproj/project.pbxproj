@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		45134FC51E51808F0013CCF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45134FC41E51808F0013CCF6 /* AppDelegate.swift */; };
-		45134FC71E51808F0013CCF6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45134FC61E51808F0013CCF6 /* FirstViewController.swift */; };
+		45134FC71E51808F0013CCF6 /* InterviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45134FC61E51808F0013CCF6 /* InterviewViewController.swift */; };
 		45134FC91E51808F0013CCF6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45134FC81E51808F0013CCF6 /* SecondViewController.swift */; };
 		45134FCC1E51808F0013CCF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45134FCA1E51808F0013CCF6 /* Main.storyboard */; };
 		45134FCE1E51808F0013CCF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45134FCD1E51808F0013CCF6 /* Assets.xcassets */; };
 		45134FD11E51808F0013CCF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45134FCF1E51808F0013CCF6 /* LaunchScreen.storyboard */; };
-		45134FDC1E51808F0013CCF6 /* RecruitXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45134FDB1E51808F0013CCF6 /* RecruitXTests.swift */; };
+		45134FDC1E51808F0013CCF6 /* InterviewViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45134FDB1E51808F0013CCF6 /* InterviewViewControllerTests.swift */; };
 		45134FE71E51808F0013CCF6 /* RecruitXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45134FE61E51808F0013CCF6 /* RecruitXUITests.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,14 +37,14 @@
 /* Begin PBXFileReference section */
 		45134FC11E51808F0013CCF6 /* RecruitX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecruitX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45134FC41E51808F0013CCF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		45134FC61E51808F0013CCF6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		45134FC61E51808F0013CCF6 /* InterviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewViewController.swift; sourceTree = "<group>"; };
 		45134FC81E51808F0013CCF6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		45134FCB1E51808F0013CCF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45134FCD1E51808F0013CCF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45134FD01E51808F0013CCF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45134FD21E51808F0013CCF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45134FD71E51808F0013CCF6 /* RecruitXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecruitXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		45134FDB1E51808F0013CCF6 /* RecruitXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruitXTests.swift; sourceTree = "<group>"; };
+		45134FDB1E51808F0013CCF6 /* InterviewViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewViewControllerTests.swift; sourceTree = "<group>"; };
 		45134FDD1E51808F0013CCF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45134FE21E51808F0013CCF6 /* RecruitXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecruitXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45134FE61E51808F0013CCF6 /* RecruitXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruitXUITests.swift; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				45134FC41E51808F0013CCF6 /* AppDelegate.swift */,
-				45134FC61E51808F0013CCF6 /* FirstViewController.swift */,
+				45134FC61E51808F0013CCF6 /* InterviewViewController.swift */,
 				45134FC81E51808F0013CCF6 /* SecondViewController.swift */,
 				45134FCA1E51808F0013CCF6 /* Main.storyboard */,
 				45134FCD1E51808F0013CCF6 /* Assets.xcassets */,
@@ -113,7 +113,7 @@
 		45134FDA1E51808F0013CCF6 /* RecruitXTests */ = {
 			isa = PBXGroup;
 			children = (
-				45134FDB1E51808F0013CCF6 /* RecruitXTests.swift */,
+				45134FDB1E51808F0013CCF6 /* InterviewViewControllerTests.swift */,
 				45134FDD1E51808F0013CCF6 /* Info.plist */,
 			);
 			path = RecruitXTests;
@@ -264,7 +264,7 @@
 			files = (
 				45134FC91E51808F0013CCF6 /* SecondViewController.swift in Sources */,
 				45134FC51E51808F0013CCF6 /* AppDelegate.swift in Sources */,
-				45134FC71E51808F0013CCF6 /* FirstViewController.swift in Sources */,
+				45134FC71E51808F0013CCF6 /* InterviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45134FDC1E51808F0013CCF6 /* RecruitXTests.swift in Sources */,
+				45134FDC1E51808F0013CCF6 /* InterviewViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +507,7 @@
 				45134FED1E51808F0013CCF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45134FEE1E51808F0013CCF6 /* Build configuration list for PBXNativeTarget "RecruitXTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +516,7 @@
 				45134FF01E51808F0013CCF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45134FF11E51808F0013CCF6 /* Build configuration list for PBXNativeTarget "RecruitXUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +525,7 @@
 				45134FF31E51808F0013CCF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
