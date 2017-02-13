@@ -1,6 +1,6 @@
 import UIKit
 
-class SecondViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class MyInterviewsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
@@ -11,7 +11,7 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell123", for: indexPath) as! InterviewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "interviewCell", for: indexPath) as! InterviewCell
         cell.intervieweeName!.text = "Interviewee Name"
         return cell
     }
