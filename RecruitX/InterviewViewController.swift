@@ -11,7 +11,7 @@ import UIKit
 class InterviewViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     
-    @IBOutlet weak var interViewTable: UITableView!
+    @IBOutlet weak var interViewTable: UITableView! 
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,10 +24,9 @@ class InterviewViewController: UIViewController, UITableViewDelegate, UITableVie
     }
     
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
         return 5
     }
-    
+
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
