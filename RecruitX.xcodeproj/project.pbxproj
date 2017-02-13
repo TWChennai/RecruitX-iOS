@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16F824821E51B6E000EA382A /* InterviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F824811E51B6E000EA382A /* InterviewCell.swift */; };
 		45134FC51E51808F0013CCF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45134FC41E51808F0013CCF6 /* AppDelegate.swift */; };
 		45134FC71E51808F0013CCF6 /* InterviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45134FC61E51808F0013CCF6 /* InterviewViewController.swift */; };
 		45134FC91E51808F0013CCF6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45134FC81E51808F0013CCF6 /* SecondViewController.swift */; };
@@ -36,7 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		16F824811E51B6E000EA382A /* InterviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterviewCell.swift; sourceTree = "<group>"; };
 		45134FC11E51808F0013CCF6 /* RecruitX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecruitX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45134FC41E51808F0013CCF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45134FC61E51808F0013CCF6 /* InterviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewViewController.swift; sourceTree = "<group>"; };
@@ -108,7 +106,6 @@
 				45134FCD1E51808F0013CCF6 /* Assets.xcassets */,
 				45134FCF1E51808F0013CCF6 /* LaunchScreen.storyboard */,
 				45134FD21E51808F0013CCF6 /* Info.plist */,
-				16F824811E51B6E000EA382A /* InterviewCell.swift */,
 			);
 			path = RecruitX;
 			sourceTree = "<group>";
@@ -268,8 +265,6 @@
 				45134FC91E51808F0013CCF6 /* SecondViewController.swift in Sources */,
 				45134FC51E51808F0013CCF6 /* AppDelegate.swift in Sources */,
 				45134FC71E51808F0013CCF6 /* InterviewViewController.swift in Sources */,
-				45134FC71E51808F0013CCF6 /* FirstViewController.swift in Sources */,
-				16F824821E51B6E000EA382A /* InterviewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
