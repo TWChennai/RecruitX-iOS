@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  RecruitX
-//
-//  Created by Venkateswari Srinivasan on 13/02/17.
-//  Copyright © 2017 Thoughtworks. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain

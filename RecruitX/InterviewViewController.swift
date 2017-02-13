@@ -1,11 +1,3 @@
-//
-//  FirstViewController.swift
-//  RecruitX
-//
-//  Created by Venkateswari Srinivasan on 13/02/17.
-//  Copyright © 2017 Thoughtworks. All rights reserved.
-//
-
 import UIKit
 
 class InterviewViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
@@ -20,7 +12,6 @@ class InterviewViewController: UIViewController, UITableViewDelegate, UITableVie
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
