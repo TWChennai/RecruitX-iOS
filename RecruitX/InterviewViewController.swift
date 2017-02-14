@@ -2,12 +2,8 @@ import UIKit
 
 class InterviewViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
-    
-    @IBOutlet weak var interViewTable: UITableView! 
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-//        interViewTable.tableFooterView = UIView()
     }
 
     override func didReceiveMemoryWarning() {
