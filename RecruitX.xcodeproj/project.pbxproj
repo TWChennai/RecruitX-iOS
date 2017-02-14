@@ -16,6 +16,7 @@
 		45134FD11E51808F0013CCF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45134FCF1E51808F0013CCF6 /* LaunchScreen.storyboard */; };
 		45134FDC1E51808F0013CCF6 /* InterviewViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45134FDB1E51808F0013CCF6 /* InterviewViewControllerTests.swift */; };
 		45134FE71E51808F0013CCF6 /* RecruitXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45134FE61E51808F0013CCF6 /* RecruitXUITests.swift */; };
+		5B506CAC1E5233320039AEAE /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B506CAB1E5233320039AEAE /* splash.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		45134FE21E51808F0013CCF6 /* RecruitXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecruitXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45134FE61E51808F0013CCF6 /* RecruitXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruitXUITests.swift; sourceTree = "<group>"; };
 		45134FE81E51808F0013CCF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B506CAB1E5233320039AEAE /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash.png; path = ../RecruitX_Frontend/resources/splash.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		45134FB81E51808E0013CCF6 = {
 			isa = PBXGroup;
 			children = (
+				5B506CAB1E5233320039AEAE /* splash.png */,
 				45134FC31E51808F0013CCF6 /* RecruitX */,
 				45134FDA1E51808F0013CCF6 /* RecruitXTests */,
 				45134FE51E51808F0013CCF6 /* RecruitXUITests */,
@@ -238,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B506CAC1E5233320039AEAE /* splash.png in Resources */,
 				45134FD11E51808F0013CCF6 /* LaunchScreen.storyboard in Resources */,
 				45134FCE1E51808F0013CCF6 /* Assets.xcassets in Resources */,
 				45134FCC1E51808F0013CCF6 /* Main.storyboard in Resources */,
