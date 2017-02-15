@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (4.3.0)
+  - Cuckoo (0.8.3)
   - Moya (8.0.2):
     - Moya/Core (= 8.0.2)
   - Moya/Core (8.0.2):
@@ -26,6 +27,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 4.3)
+  - Cuckoo
   - Moya
   - Nimble
   - OHHTTPStubs
@@ -34,12 +36,13 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  Cuckoo: 2daf5d23383c0a24cd60b73287a5813af4793add
   Moya: 47f61da5b634aa71f676431b64ee0f81e976296d
   Nimble: 1527fd1bd2b4cf0636251a36bc8ab37e81da8347
   OHHTTPStubs: e238cd5b66d8efa51c861db45895de8fe079f4a7
   Quick: dafc587e21eed9f4cab3249b9f9015b0b7a7f71d
   Result: 4e3ed5995ed94d0cd6a09be9a431fce3f3624bbf
 
-PODFILE CHECKSUM: b473413ee4c477a9fbf43b9b7056ce8b4ca046e6
+PODFILE CHECKSUM: d232aac548a7487ed3b9719b1ad2ba7768bb303e
 
 COCOAPODS: 1.2.0

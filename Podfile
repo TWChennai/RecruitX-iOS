@@ -14,6 +14,7 @@ target 'RecruitX' do
     # Pods for testing
     pod 'Quick'
     pod 'Nimble'
+    pod 'Cuckoo'
     pod 'OHHTTPStubs' # Default subspecs, including support for NSURLSession & JSON etc
     pod 'OHHTTPStubs/Swift' # Adds the Swiftier API wrapper too
 end
