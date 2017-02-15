@@ -8,20 +8,28 @@
 
 import Foundation
 import Alamofire
+import SwiftyJSON
 
 class InterviewViewModel {
 
     static func getForAllInteveiws(user: String, onLoadedAllInterviews: @escaping ([Interview]) -> ()) {
         
+        print("in getForAllInteveiws")
+        
+        let headers: HTTPHeaders = [
+            "Authorization" : "Authorization"
+        ]
+        
         Alamofire
-            .request("http://mywebservice.com")
+            .request("https://recruitx-qa.herokuapp.com/interviews?panelist_login_name=pan&panelist_experience=9&panelist_role=Dev", headers: headers)
             .responseJSON { response in
-                print(response.request!)  // original URL request
-                print(response.response!) // HTTP URL response
-                print(response.data!)     // server data
-                print(response.result)   // result of response serialization
-                let interview = Interview(response.result.description);
-                onLoadedAllInterviews([interview])
+                let result = response.result.value;
+            
+                let jsonResult = JSON(array: result!)
+                
+                if let firstName = jsonResult[0]["candidate"]["first_name"].string {
+                    onLoadedAllInterviews([Interview(firstName)])
+                }
         }
     }
 }

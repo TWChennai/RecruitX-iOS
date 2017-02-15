@@ -9,6 +9,8 @@ target 'RecruitX' do
   # Pods for RecruitX
   pod 'Alamofire', '~> 4.3'
   pod 'Moya'
+  pod 'SwiftyJSON'
+
   target 'RecruitXTests' do
     inherit! :search_paths
     # Pods for testing
