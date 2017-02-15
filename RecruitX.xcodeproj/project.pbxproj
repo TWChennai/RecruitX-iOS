@@ -17,12 +17,12 @@
 		45134FD11E51808F0013CCF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45134FCF1E51808F0013CCF6 /* LaunchScreen.storyboard */; };
 		45134FDC1E51808F0013CCF6 /* InterviewViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45134FDB1E51808F0013CCF6 /* InterviewViewControllerTests.swift */; };
 		45134FE71E51808F0013CCF6 /* RecruitXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45134FE61E51808F0013CCF6 /* RecruitXUITests.swift */; };
-		5B506CAC1E5233320039AEAE /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B506CAB1E5233320039AEAE /* splash.png */; };
 		45267AAA1E52D9B600CE84FF /* InterviewViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45267AA91E52D9B600CE84FF /* InterviewViewModelTest.swift */; };
 		45267AD41E530DF500CE84FF /* Quick in Frameworks */ = {isa = PBXBuildFile; fileRef = 45267AAB1E53071400CE84FF /* Quick */; };
 		45267AD51E530DFF00CE84FF /* Nimble in Frameworks */ = {isa = PBXBuildFile; fileRef = 45267AC21E53077F00CE84FF /* Nimble */; };
 		45267AEC1E5433B700CE84FF /* InterviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45267AEB1E5433B700CE84FF /* InterviewViewModel.swift */; };
 		45267AEE1E5434EC00CE84FF /* Interview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45267AA61E52D4DA00CE84FF /* Interview.swift */; };
+		5B14A3BB1E54404B0043D83A /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B14A3BA1E54404B0043D83A /* splash.png */; };
 		5B73C2434A750E63ABCE6CC8 /* Pods_RecruitX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279947EBAB8DEE73837A4E17 /* Pods_RecruitX.framework */; };
 		C934637FE3C60B6E4C9665A7 /* Pods_RecruitXUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30B115CF382B955BAF8D624 /* Pods_RecruitXUITests.framework */; };
 /* End PBXBuildFile section */
@@ -129,13 +129,13 @@
 		45134FE21E51808F0013CCF6 /* RecruitXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecruitXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45134FE61E51808F0013CCF6 /* RecruitXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruitXUITests.swift; sourceTree = "<group>"; };
 		45134FE81E51808F0013CCF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B506CAB1E5233320039AEAE /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash.png; path = ../RecruitX_Frontend/resources/splash.png; sourceTree = "<group>"; };
 		45267AA61E52D4DA00CE84FF /* Interview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Interview.swift; path = RecruitXTests/Interview.swift; sourceTree = SOURCE_ROOT; };
 		45267AA91E52D9B600CE84FF /* InterviewViewModelTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterviewViewModelTest.swift; sourceTree = "<group>"; };
 		45267AAB1E53071400CE84FF /* Quick */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Quick; path = Pods/Quick; sourceTree = "<group>"; };
 		45267AAD1E53076000CE84FF /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
 		45267AC21E53077F00CE84FF /* Nimble */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Nimble; path = Pods/Nimble; sourceTree = "<group>"; };
 		45267AEB1E5433B700CE84FF /* InterviewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterviewViewModel.swift; sourceTree = "<group>"; };
+		5B14A3BA1E54404B0043D83A /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
 		8EDC25F3FEDA115E1264D848 /* Pods-RecruitXUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecruitXUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RecruitXUITests/Pods-RecruitXUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A30B115CF382B955BAF8D624 /* Pods_RecruitXUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecruitXUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E8C1A9FC22187C69D790AB /* Pods_RecruitXTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecruitXTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -187,7 +187,6 @@
 		45134FB81E51808E0013CCF6 = {
 			isa = PBXGroup;
 			children = (
-				5B506CAB1E5233320039AEAE /* splash.png */,
 				45134FC31E51808F0013CCF6 /* RecruitX */,
 				45134FDA1E51808F0013CCF6 /* RecruitXTests */,
 				45134FE51E51808F0013CCF6 /* RecruitXUITests */,
@@ -210,6 +209,7 @@
 		45134FC31E51808F0013CCF6 /* RecruitX */ = {
 			isa = PBXGroup;
 			children = (
+				5B14A3BA1E54404B0043D83A /* splash.png */,
 				45267AEA1E54334800CE84FF /* ViewMdels */,
 				45267AA81E52D94A00CE84FF /* Models */,
 				45134FC41E51808F0013CCF6 /* AppDelegate.swift */,
@@ -484,7 +484,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B506CAC1E5233320039AEAE /* splash.png in Resources */,
+				5B14A3BB1E54404B0043D83A /* splash.png in Resources */,
 				45134FD11E51808F0013CCF6 /* LaunchScreen.storyboard in Resources */,
 				45134FCE1E51808F0013CCF6 /* Assets.xcassets in Resources */,
 				45134FCC1E51808F0013CCF6 /* Main.storyboard in Resources */,
