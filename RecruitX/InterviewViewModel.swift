@@ -1,11 +1,3 @@
-//
-//  InterviewViewModel.swift
-//  RecruitX
-//
-//  Created by Venkateswari Srinivasan on 15/02/17.
-//  Copyright © 2017 Thoughtworks. All rights reserved.
-//
-
 import Foundation
 import Alamofire
 import SwiftyJSON
@@ -16,8 +8,9 @@ class InterviewViewModel {
         
         print("in getForAllInteveiws")
         
+        let authorizationCode = ProcessInfo.processInfo.environment["AuthorizationCode"]
         let headers: HTTPHeaders = [
-            "Authorization" : "Authorization"
+            "Authorization" : authorizationCode!
         ]
         
         Alamofire

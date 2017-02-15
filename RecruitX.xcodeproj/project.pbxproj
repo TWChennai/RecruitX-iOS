@@ -112,6 +112,13 @@
 			remoteGlobalIDString = 6954B31DD36187FB7178DA0A1B82699A;
 			remoteInfo = Result;
 		};
+		4541803A1E5492ED008FA988 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45267AAD1E53076000CE84FF /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D459C1669DC54539843D91A3E7FA7D7;
+			remoteInfo = SwiftyJSON;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -281,6 +288,7 @@
 				45267ABF1E53076000CE84FF /* Pods_RecruitXUITests.framework */,
 				45267AC11E53076000CE84FF /* Quick.framework */,
 				45267AE91E5432FE00CE84FF /* Result.framework */,
+				4541803B1E5492ED008FA988 /* SwiftyJSON.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -492,6 +500,13 @@
 			fileType = wrapper.framework;
 			path = Result.framework;
 			remoteRef = 45267AE81E5432FE00CE84FF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4541803B1E5492ED008FA988 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 4541803A1E5492ED008FA988 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
