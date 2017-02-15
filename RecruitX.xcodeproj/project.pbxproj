@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		16E84A381E545245002B4245 /* MyInterviewsViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E84A371E545245002B4245 /* MyInterviewsViewControllerTest.swift */; };
+		16E84A461E5465E4002B4245 /* MyInterviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E84A451E5465E4002B4245 /* MyInterviews.swift */; };
+		16E84A561E547437002B4245 /* MyInterviewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E84A551E547437002B4245 /* MyInterviewsViewModel.swift */; };
 		16F824821E51B6E000EA382A /* InterviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F824811E51B6E000EA382A /* InterviewCell.swift */; };
 		1A081650937520BE76A6E96A /* Pods_RecruitXTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9E8C1A9FC22187C69D790AB /* Pods_RecruitXTests.framework */; };
 		45134FC51E51808F0013CCF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45134FC41E51808F0013CCF6 /* AppDelegate.swift */; };
@@ -125,6 +127,8 @@
 		0115D5A4818EF5305E04968A /* Pods-RecruitX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecruitX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RecruitX/Pods-RecruitX.debug.xcconfig"; sourceTree = "<group>"; };
 		0EFC9EA83C039CEA9AF18790 /* Pods-RecruitXUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecruitXUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RecruitXUITests/Pods-RecruitXUITests.release.xcconfig"; sourceTree = "<group>"; };
 		16E84A371E545245002B4245 /* MyInterviewsViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyInterviewsViewControllerTest.swift; sourceTree = "<group>"; };
+		16E84A451E5465E4002B4245 /* MyInterviews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyInterviews.swift; sourceTree = "<group>"; };
+		16E84A551E547437002B4245 /* MyInterviewsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyInterviewsViewModel.swift; sourceTree = "<group>"; };
 		16F824811E51B6E000EA382A /* InterviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterviewCell.swift; sourceTree = "<group>"; };
 		279947EBAB8DEE73837A4E17 /* Pods_RecruitX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecruitX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29D0578F555C1A6C69393DC9 /* Pods-RecruitXTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecruitXTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RecruitXTests/Pods-RecruitXTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -248,7 +252,7 @@
 				45134FDD1E51808F0013CCF6 /* Info.plist */,
 			);
 			path = RecruitXTests;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		45134FE51E51808F0013CCF6 /* RecruitXUITests */ = {
 			isa = PBXGroup;
@@ -271,6 +275,7 @@
 			isa = PBXGroup;
 			children = (
 				45267AA61E52D4DA00CE84FF /* Interview.swift */,
+				16E84A451E5465E4002B4245 /* MyInterviews.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -297,6 +302,7 @@
 			isa = PBXGroup;
 			children = (
 				45267AEB1E5433B700CE84FF /* InterviewViewModel.swift */,
+				16E84A551E547437002B4245 /* MyInterviewsViewModel.swift */,
 			);
 			name = ViewMdels;
 			sourceTree = "<group>";
@@ -681,7 +687,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16E84A561E547437002B4245 /* MyInterviewsViewModel.swift in Sources */,
 				45267AEC1E5433B700CE84FF /* InterviewViewModel.swift in Sources */,
+				16E84A461E5465E4002B4245 /* MyInterviews.swift in Sources */,
 				45134FC91E51808F0013CCF6 /* MyInterviewsViewController.swift in Sources */,
 				45134FC51E51808F0013CCF6 /* AppDelegate.swift in Sources */,
 				45134FC71E51808F0013CCF6 /* InterviewViewController.swift in Sources */,
