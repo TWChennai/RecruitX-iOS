@@ -19,6 +19,7 @@
 		45134FCE1E51808F0013CCF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45134FCD1E51808F0013CCF6 /* Assets.xcassets */; };
 		45134FD11E51808F0013CCF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45134FCF1E51808F0013CCF6 /* LaunchScreen.storyboard */; };
 		45134FDC1E51808F0013CCF6 /* InterviewViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45134FDB1E51808F0013CCF6 /* InterviewViewControllerTests.swift */; };
+		45134FE71E51808F0013CCF6 /* RecruitXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45134FE61E51808F0013CCF6 /* RecruitXUITests.swift */; };
 		45267AAA1E52D9B600CE84FF /* InterviewViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45267AA91E52D9B600CE84FF /* InterviewViewModelTest.swift */; };
 		45267AD41E530DF500CE84FF /* Quick in Frameworks */ = {isa = PBXBuildFile; fileRef = 45267AAB1E53071400CE84FF /* Quick */; };
 		45267AD51E530DFF00CE84FF /* Nimble in Frameworks */ = {isa = PBXBuildFile; fileRef = 45267AC21E53077F00CE84FF /* Nimble */; };
@@ -145,6 +146,8 @@
 		45134FDB1E51808F0013CCF6 /* InterviewViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewViewControllerTests.swift; sourceTree = "<group>"; };
 		45134FDD1E51808F0013CCF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45134FE21E51808F0013CCF6 /* RecruitXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecruitXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45134FE61E51808F0013CCF6 /* RecruitXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruitXUITests.swift; sourceTree = "<group>"; };
+		45134FE81E51808F0013CCF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45267AA61E52D4DA00CE84FF /* Interview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Interview.swift; path = RecruitXTests/Interview.swift; sourceTree = SOURCE_ROOT; };
 		45267AA91E52D9B600CE84FF /* InterviewViewModelTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterviewViewModelTest.swift; sourceTree = "<group>"; };
 		45267AAB1E53071400CE84FF /* Quick */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Quick; path = Pods/Quick; sourceTree = "<group>"; };
@@ -205,6 +208,7 @@
 			children = (
 				45134FC31E51808F0013CCF6 /* RecruitX */,
 				45134FDA1E51808F0013CCF6 /* RecruitXTests */,
+				45134FE51E51808F0013CCF6 /* RecruitXUITests */,
 				45134FC21E51808F0013CCF6 /* Products */,
 				1C9D9176721CB0B274070685 /* Pods */,
 				981598604969CE98D961BADE /* Frameworks */,
@@ -249,6 +253,15 @@
 			);
 			path = RecruitXTests;
 			sourceTree = SOURCE_ROOT;
+		};
+		45134FE51E51808F0013CCF6 /* RecruitXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45134FE61E51808F0013CCF6 /* RecruitXUITests.swift */,
+				45134FE81E51808F0013CCF6 /* Info.plist */,
+			);
+			path = RecruitXUITests;
+			sourceTree = "<group>";
 		};
 		45267AA51E52D49D00CE84FF /* ViewModels */ = {
 			isa = PBXGroup;
@@ -699,6 +712,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45134FE71E51808F0013CCF6 /* RecruitXUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
