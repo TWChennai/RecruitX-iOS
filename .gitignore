@@ -52,5 +52,11 @@ build
 /*.gcno
 
 .DS_Store
+
+#fastlane
+fastlane/*.xml
+fastlane/*.md
+fastlane/*/*.junit
+fastlane/*/*.html
 # End of https://www.gitignore.io/api/xcode,swift
 

@@ -20,6 +20,6 @@ class MyInterviewsViewControllerTest: XCTestCase {
     }
     
     func testVerifyNumberOfRows() {
-        XCTAssertEqual(myInterviewsViewController?.tableView(UITableView(),numberOfRowsInSection:5), 4)
+        XCTAssertEqual(myInterviewsViewController?.tableView(UITableView(),numberOfRowsInSection:5), 3)
     }
 }
