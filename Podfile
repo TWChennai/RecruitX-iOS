@@ -21,9 +21,4 @@ target 'RecruitX' do
     pod 'OHHTTPStubs/Swift' # Adds the Swiftier API wrapper too
 end
 
-  target 'RecruitXUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
 end
