@@ -8,9 +8,9 @@ class InterviewViewModel {
         
         print("in getForAllInteveiws")
         
-        let authorizationCode = ProcessInfo.processInfo.environment["AuthorizationCode"]
+//        let authorizationCode = ProcessInfo.processInfo.environment["AuthorizationCode"]
         let headers: HTTPHeaders = [
-            "Authorization" : authorizationCode!
+            "Authorization" : "authorizationCode"
         ]
         
         Alamofire
